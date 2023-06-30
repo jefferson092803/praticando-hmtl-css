@@ -7,6 +7,10 @@ header{
 }
 body{
     background-image: linear-gradient(90deg,#D65662,#DAAC52);
+    background-image: url(imagens/imagem-exemplo.avif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 nav > a{
     text-decoration: none;
