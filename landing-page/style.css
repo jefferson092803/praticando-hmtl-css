@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,500;1,500&display=swap');
+
+body{
+   background-image: linear-gradient(to right,#D53768,#DAAA52);
+   color: #FFFFFF;
+   font-family: 'Nunito', sans-serif;
+}
+
+
+nav{
+  padding: 10px;
+
+}
+.navegaçao a{
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 10px;
+  border-radius: 5px;
+}
+.navegaçao a:hover{
+  background-color: aqua;
+  color: aquamarine;
+
+}
+button{
+    border-radius: 5px;
+    color: rgb(48, 47, 47);
+}

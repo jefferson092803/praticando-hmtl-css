@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+body{
+    background-color:#9ED6D7 ;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+}
+
+#principal{
+    color:#025959 ;
+    font-size: 3em;
+    background-color:#6CC5C6 ;
+    border-radius: 20px;
+   text-decoration: underline;
+}
+
+main{
+    background-color:#DEF0EE ;
+    border-radius: 20px;
+}
+
+.informacoes{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+p{
+    text-indent: 20px;
+}
+
+.segundo-titulo{
+    color:#025959;
+    font-size: 3em;
+    text-decoration: underline;
+}
+.subtitulo{
+    color:#6CC5C6 ;
+    text-decoration: underline;
+}
+.informacoes{
+    font-weight: bolder;
+    font-size: medium;
+}
+
+div{
+    text-align: center;
+    color: #179687;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    background-color: red;
+}
+div > p{
+    display: none;
+}
+div:hover > p{
+    display: block;
+    background-color: yellow;
+}

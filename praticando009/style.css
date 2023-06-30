@@ -1,0 +1,43 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+header{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    background-color: grey;
+}
+body{
+    background-image: linear-gradient(90deg,#D65662,#DAAC52);
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+}
+section{
+    background-color: blue;
+}
+
+section > .Homem-bomba{
+    color: white;
+    border: 5px dashed rgb(175, 31, 175);
+}
+section > .Tecnologia{
+    font-family:'Courier New', Courier, monospace ;
+    color: blanchedalmond;
+    margin: auto;
+    border: 5px solid lightgray;
+    padding: auto;
+
+}
+footer > p > a{
+    text-decoration: none;
+    color: yellow;
+
+}
+footer > p > a:hover{
+    text-decoration: underline;
+    border: 5px dashed red;
+    border-radius: 20px;
+}
+footer > p{
+    font-family: 'Times New Roman', Times, serif;
+}
